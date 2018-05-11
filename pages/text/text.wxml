@@ -1,0 +1,7 @@
+<view>
+  <image wx:if="{{src}}" mode="widthFix" src="{{src}}"></image>
+  <text class="time">摄于{{ time }}</text>
+  <textarea placeholder='请记录~~~' class="textbox"></textarea>
+  <button class="button" type="primary">完成</button>
+  <button class="button" type="primary">重拍</button>
+</view>

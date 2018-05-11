@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index","pages/myself/index","pages/text/text"
+  ],
+  "tabBar": {
+    "selectedColor": "green",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "icons/cameraicon.jpg",
+        "selectedIconPath": "icons/cameraicon.jpg",
+        "pagePath": "pages/index/index",
+        "text": "记录"
+      },
+      {
+        "iconPath": "icons/personicon.jpg",
+        "selectedIconPath": "icons/personicon.jpg",
+        "pagePath": "pages/myself/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "camera",
+    "navigationBarTextStyle":"black"
+  }
+}

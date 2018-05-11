@@ -1,0 +1,13 @@
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <camera device-position="front" flash="off" binderror="error" style="width: 100%; height: 300px;">
+      <cover-view class='center'>
+        X
+      </cover-view>
+    </camera>
+    <text>请以上方的'x'对准自己的鼻子</text>
+    <view class="btn-area">
+      <button type="primary" bindtap="takePhoto">拍照</button>
+    </view>
+  </view>
+</view>

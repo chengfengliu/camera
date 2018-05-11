@@ -1,0 +1,8 @@
+/* pages/text/text.wxss */
+.textbox{
+  width: 100%;
+  height: 100rpx;
+}
+.button{
+  margin-top: 100rpx;
+}
